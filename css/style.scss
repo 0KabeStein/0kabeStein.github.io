@@ -1,0 +1,32 @@
+$primary: #f72585;
+$secondary: #4cc9f0;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Functions first
+@import "../node_modules/bootstrap/scss/functions";
+
+// Variable overrides second
+$primary: #f72585;
+$secondary: #4cc9f0;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{overflow-x: hidden;}
+.cialko{min-height: 95vh;}
+*{font-family: 'inter'}
+
+// Required Bootstrap imports
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional components
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
