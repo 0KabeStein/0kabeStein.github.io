@@ -11981,8 +11981,12 @@ body {
   overflow-x: hidden;
 }
 
+.naglowek {
+  min-height: 10vh;
+}
+
 .cialko {
-  min-height: 95vh;
+  min-height: 91vh;
 }
 
 * {
