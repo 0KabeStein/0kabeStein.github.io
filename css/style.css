@@ -11977,6 +11977,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.cialko {
+  background: linear-gradient(90deg, hsl(152, 100%, 50%) 0%, hsl(186, 100%, 69%) 100%);
+}
+
 body {
   overflow-x: hidden;
 }

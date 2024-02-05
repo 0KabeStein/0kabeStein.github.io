@@ -8,10 +8,11 @@ $secondary: #0F8B8D;
 
 // Variable overrides second
 $primary: #f72585;
-$secondary: #4cc9f0;
+$secondary: #7209b7;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+.cialko{background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);}
 body{overflow-x: hidden;}
 .naglowek{min-height: 10dvh;}
 .cialko{min-height: 100dvh;}
